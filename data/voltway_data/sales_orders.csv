@@ -1,0 +1,13 @@
+order_number,customer_name,customer_type,product_model,quantity,order_date,expected_delivery,status
+SO890,Bird Fleet,fleet,S2 V2,150,2024-12-15,2025-01-05,pending
+SO891,John Doe,webshop,S1 Classic,1,2024-12-26,2025-01-03,pending
+SO892,Lime Operations,fleet,S2 Pro,200,2024-12-18,2025-01-10,pending
+SO893,Jane Smith,webshop,S2 V2,2,2024-12-27,2025-01-05,pending
+SO894,Bolt Mobility,fleet,S2 V2,100,2024-12-20,2025-01-08,pending
+SO895,Mike Johnson,webshop,S1 Classic,1,2024-12-28,2025-01-06,pending
+SO896,Tier Scooters,fleet,S2 Pro,75,2024-12-22,2025-01-15,pending
+SO897,Sarah Wilson,webshop,S2 V2,1,2024-12-28,2025-01-12,pending
+SO898,Voi Technology,fleet,S1 Classic,50,2024-12-24,2025-01-20,pending
+SO899,Robert Brown,webshop,S2 Pro,1,2024-12-29,2025-01-18,pending
+SO900,Spin Bikes,fleet,S2 V2,80,2024-12-26,2025-01-12,pending
+SO901,Emily Davis,webshop,S1 Classic,2,2024-12-29,2025-01-08,pending

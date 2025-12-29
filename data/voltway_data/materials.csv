@@ -1,0 +1,21 @@
+material_code,description,category,unit_price,supplier_name,unit_of_measure
+CTRL-X500,Controller Unit X500,electronics,92,TechParts GmbH,EA
+BATT-48V,Battery 48V 20Ah,battery,85,BatteryCo,EA
+FRAME-S1,S1 Classic Frame,frame,87,FrameCo Industries,EA
+FRAME-S2-V2,S2 V2 Frame,frame,95,FrameCo Industries,EA
+FRAME-S2-PRO,S2 Pro Frame,frame,110,FrameCo Industries,EA
+MOTOR-500W,Motor 500W Hub,motor,120,MotorMax Ltd,EA
+MOTOR-750W,Motor 750W Hub,motor,145,MotorMax Ltd,EA
+WHEEL-10IN,10 Inch Wheel Assembly,wheel,35,WheelWorks Inc,EA
+WHEEL-12IN,12 Inch Wheel Assembly,wheel,42,WheelWorks Inc,EA
+THROTTLE-ST200,Smart Throttle ST200,electronics,28,TechParts GmbH,EA
+BRAKE-1800,Brake Cable 1800mm,brake,12,BrakeTech Co,EA
+DISPLAY-LCD,LCD Display Panel,electronics,45,TechParts GmbH,EA
+CHARGER-48V,48V Fast Charger,electronics,38,PowerSupply Inc,EA
+LIGHTS-KIT,LED Light Kit,electronics,22,LightPro,EA
+SEAT-STD,Standard Seat,seat,55,ComfortSeats,EA
+SEAT-PRO,Pro Comfort Seat,seat,75,ComfortSeats,EA
+FENDER-FR,Front Fender,body,18,BodyParts Co,EA
+FENDER-RR,Rear Fender,body,20,BodyParts Co,EA
+HANDLEBAR,Handlebar Assembly,frame,32,FrameCo Industries,EA
+KICKSTAND,Kickstand,frame,15,FrameCo Industries,EA

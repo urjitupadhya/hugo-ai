@@ -1,0 +1,162 @@
+From: klaus@techparts.de
+To: procurement@voltway.com
+Date: 2024-12-26
+Subject: RE: PO 4521 - Delivery Update
+
+Hi Team,
+
+Unfortunately, due to customs delays at the German border, the shipment for PO #4521 (Controller Units X500) will arrive January 4th instead of December 30th.
+
+We apologize for the inconvenience and are working with our logistics partner to expedite future shipments.
+
+Best regards,
+Klaus Weber
+Sales Manager, TechParts GmbH
+
+---
+
+From: sales@batteryco.com
+To: procurement@voltway.com
+Date: 2024-12-27
+Subject: Price Adjustment Notice - Effective January 2025
+
+Dear Voltway Procurement Team,
+
+Due to rising lithium costs and supply chain pressures, we must implement a 12% price increase on all battery products effective January 15, 2025.
+
+Current pricing:
+- BATT-48V: $85/unit
+
+New pricing (effective Jan 15):
+- BATT-48V: $95/unit
+
+We value our partnership and are happy to discuss volume commitments that could help mitigate this increase.
+
+Regards,
+BatteryCo Sales Team
+
+---
+
+From: accounts@frameco.com
+To: procurement@voltway.com
+Date: 2024-12-28
+Subject: Important: Updated Payment Terms
+
+Hello Voltway Team,
+
+Due to current cash flow requirements, we need to request a change in our payment terms. Effective immediately, we require:
+
+- 50% advance payment on all new orders
+- Remaining 50% due upon shipment
+
+We apologize for any inconvenience. This is a temporary measure while we restructure our operations.
+
+Please contact us to discuss.
+
+Best,
+FrameCo Industries - Accounts Department
+
+---
+
+From: support@motormax.co.uk
+To: procurement@voltway.com
+Date: 2024-12-26
+Subject: Quality Notice - Motor Units
+
+Dear Voltway,
+
+We have identified a potential quality issue with a batch of MOTOR-500W units shipped in November. Some units may have bearing defects that could cause premature wear.
+
+Affected batch: LOT-2024-11-A
+Recommended action: Inspect inventory and contact us for replacements.
+
+We take quality seriously and will cover all replacement costs.
+
+Kind regards,
+MotorMax Quality Assurance
+
+---
+
+From: info@techparts.de
+To: procurement@voltway.com
+Date: 2024-12-29
+Subject: PO 4527 - Display LCD Shortage
+
+Hi Voltway,
+
+We regret to inform you that due to component shortages from our upstream suppliers, we may need to delay PO #4527 for LCD Display Panels.
+
+Original delivery: January 8th
+New estimated delivery: January 18th (10 day delay)
+
+We are actively seeking alternative sources and will update you immediately if we can expedite.
+
+Apologies for the inconvenience.
+
+TechParts GmbH Team
+
+---
+
+From: logistics@wheelworks.com
+To: procurement@voltway.com
+Date: 2024-12-27
+Subject: PO 4525 - Shipment Tracking
+
+Hello,
+
+Your order PO #4525 is currently in transit. Tracking shows the shipment cleared port of origin and is on schedule for January 2nd delivery.
+
+Tracking number: WW-2024-12-4525
+Status: In Transit
+ETA: January 2, 2025
+
+Thank you for your business!
+
+WheelWorks Logistics
+
+---
+
+From: quality@motormax.co.uk  
+To: procurement@voltway.com
+Date: 2024-12-29
+Subject: RE: Quality Issue Follow-up
+
+Dear Voltway,
+
+Following up on our previous notice regarding MOTOR-500W quality concerns.
+
+We have now received additional reports of similar defects from other customers. We strongly recommend:
+
+1. Immediate inspection of all MOTOR-500W units from November shipments
+2. Suspension of installation for affected batch
+3. Return of defective units for replacement
+
+We are preparing replacement stock and will prioritize your orders.
+
+Our sincere apologies for this issue.
+
+Quality Assurance Team
+MotorMax Ltd
+
+---
+
+From: cfo@frameco.com
+To: procurement@voltway.com
+Date: 2024-12-30
+Subject: Partnership Discussion - Confidential
+
+Dear Voltway Leadership,
+
+I wanted to reach out personally regarding our recent payment terms update. As you may know, FrameCo is going through some financial restructuring.
+
+We remain committed to our partnership and assure you that production capacity is unaffected. However, I wanted to be transparent about our situation to maintain trust.
+
+We would appreciate if you could consider:
+- Prepayment arrangements for upcoming orders
+- Possible advance on Q1 2025 orders
+
+Happy to schedule a call to discuss further.
+
+Best regards,
+James Chen
+CFO, FrameCo Industries
