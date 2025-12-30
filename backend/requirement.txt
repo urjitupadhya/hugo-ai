@@ -1,0 +1,26 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+aiosqlite
+
+# Data processing
+pandas
+numpy
+
+# Environment variables
+python-dotenv
+
+# Google Gemini AI
+google-generativeai
+
+# Pydantic for validation
+pydantic
+
+# HTTP requests
+httpx
+
+# Date handling
+python-dateutil
