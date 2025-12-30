@@ -197,10 +197,4 @@ curl -X POST http://localhost:8000/data/reload
    - Context-aware recommendations
    - Prioritized action items
 
-## 📝 License
-
-MIT License - Built for the Dryft Hackathon 2024
-
----
-
-**Built with ❤️ by the Hugo Team**
+**Built with ❤️ by the  Team dryfto**
