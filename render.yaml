@@ -1,0 +1,39 @@
+services:
+  # ---------------------------------------------------
+  # 1. BACKEND SERVICE (Python / FastAPI)
+  # ---------------------------------------------------
+  - type: web
+    name: hugo-ai-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: FIREBASE_DATABASE_URL
+        value: https://hugo-ai-d3ce1-default-rtdb.firebaseio.com
+      # User must supply these in Render Dashboard
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FIREBASE_SERVICE_ACCOUNT_BASE64
+        sync: false
+
+  # ---------------------------------------------------
+  # 2. FRONTEND SITE (React / Vite)
+  # ---------------------------------------------------
+  - type: static
+    name: hugo-ai-frontend
+    runtime: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    plan: free
+    envVars:
+      # Auto-link to the Backend URL!
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: hugo-ai-backend
+          property: url

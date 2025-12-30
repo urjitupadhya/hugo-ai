@@ -1473,3 +1473,28 @@ body::before {
     display: none;
   }
 }
+
+/* Enhanced Chat Typography & Formatting */
+.chat-messages .message .bubble {
+  max-width: 88%;
+  padding: 14px 18px;
+  border-radius: 16px;
+  font-size: 0.95rem;
+  /* Slightly larger for readability */
+  line-height: 1.6;
+  white-space: pre-wrap;
+  /* Preserve formatting */
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.chat-messages .message .bubble strong {
+  font-weight: 700;
+  color: inherit;
+}
+
+/* Improve Bot Bubble Contrast */
+.message.bot .bubble {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-secondary);
+}

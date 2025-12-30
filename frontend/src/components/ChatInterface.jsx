@@ -1,6 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const API_BASE = `http://${window.location.hostname}:8000`;
+const API_BASE = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000`;
+
+// Helper to render bold text segments
+const renderMessageText = (text) => {
+    if (!text) return null;
+    // Split on **bold** markers
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, index) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+            return <strong key={index}>{part.slice(2, -2)}</strong>;
+        }
+        return part;
+    });
+};
 
 function ChatInterface({ initialMessage, onContextUsed }) {
     const [messages, setMessages] = useState([
@@ -10,14 +23,10 @@ function ChatInterface({ initialMessage, onContextUsed }) {
     const [loading, setLoading] = useState(false);
     const processedRef = useRef(false);
 
-    // Function to send message to backend
     const sendMessage = async (text) => {
         if (!text.trim()) return;
 
         setLoading(true);
-        // Add user message to UI (if not already added by useEffect for initial)
-        // Actually, let's keep it simple: caller handles the UI update?
-        // No, local function handles UI.
 
         try {
             const response = await fetch(`${API_BASE}/chat`, {
@@ -59,13 +68,10 @@ function ChatInterface({ initialMessage, onContextUsed }) {
         sendMessage(text);
     };
 
-    // Handle initial context message (auto-send)
     useEffect(() => {
         if (initialMessage && !processedRef.current) {
             processedRef.current = true;
-            // Show user message
             setMessages(prev => [...prev, { id: Date.now(), sender: 'user', text: initialMessage }]);
-            // Call API
             sendMessage(initialMessage);
 
             if (onContextUsed) onContextUsed();
@@ -85,7 +91,7 @@ function ChatInterface({ initialMessage, onContextUsed }) {
                 {messages.map((msg, idx) => (
                     <div key={msg.id || idx} className={`message ${msg.sender}`}>
                         <div className="bubble">
-                            {msg.text}
+                            {renderMessageText(msg.text)}
                         </div>
                     </div>
                 ))}
