@@ -1,0 +1,11 @@
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/*service-account*.json
+backend/*serviceAccount*.json
+backend/firebase*.json
+frontend/node_modules/
+frontend/dist/
+
+backend/hugo-ai-credentials.json

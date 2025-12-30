@@ -8,8 +8,8 @@ import Dashboard from './components/Dashboard';
 import AlertList from './components/AlertList';
 import Toast from './components/Toast';
 
-// API Base URL - change this for production
-const API_URL = 'http://localhost:8000';
+// API Base URL - dynamic to support network access
+const API_URL = `http://${window.location.hostname}:8000`;
 
 function App() {
   // State
