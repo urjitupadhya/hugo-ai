@@ -21,17 +21,16 @@ services:
         sync: false
 
   # ---------------------------------------------------
-  # 2. FRONTEND SITE (React / Vite)
+  # 2. FRONTEND SERVICE (React / Vite - Hosted as Web Service)
   # ---------------------------------------------------
-  - type: static
+  - type: web
     name: hugo-ai-frontend
     runtime: node
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishDir: dist
+    startCommand: npm run preview -- --host 0.0.0.0 --port $PORT
     plan: free
     envVars:
-      # Auto-link to the Backend URL!
       - key: VITE_API_URL
         fromService:
           type: web
