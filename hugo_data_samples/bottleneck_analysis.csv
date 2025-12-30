@@ -1,0 +1,16 @@
+scenario_id,scenario_name,demand_change_pct,product_model,limiting_material,limiting_material_code,current_stock,required_stock,shortfall,days_until_bottleneck,recommended_action
+1,baseline,0,S1 Classic,None,None,NULL,NULL,0,999,No bottleneck
+2,baseline,0,S2 V2,Controller,CTRL-X500-V2,47,370,323,3.9,ORDER IMMEDIATELY
+3,baseline,0,S2 Pro,None,None,NULL,NULL,0,45,Adequate stock
+4,demand_increase_20,20,S1 Classic,Brake Cable,BRAKE-CABLE-REAR,78,612,534,1.8,CRITICAL - Order today
+5,demand_increase_20,20,S2 V2,Controller,CTRL-X500-V2,47,444,397,2.1,CRITICAL - Already short
+6,demand_increase_20,20,S2 Pro,Battery,BATT-48V-20AH,240,442,202,18.5,Order within 2 weeks
+7,demand_increase_50,50,S1 Classic,Multiple,Various,NULL,NULL,NULL,1.2,Multiple bottlenecks
+8,demand_increase_50,50,S2 V2,Controller,CTRL-X500-V2,47,555,508,1.4,Immediate crisis
+9,demand_increase_50,50,S2 Pro,Battery,BATT-48V-20AH,240,552,312,12.3,Order immediately
+10,webshop_surge,30,S1 Classic,Frame,FRAME-S1-CLASSIC,95,468,373,5.8,Order this week
+11,webshop_surge,30,S2 V2,Controller,CTRL-X500-V2,47,481,434,1.6,CRITICAL
+12,webshop_surge,30,S2 Pro,Battery,BATT-48V-20AH,240,396,156,21.0,Plan order
+13,fleet_contract,0,S2 V2,Controller,CTRL-X500-V2,47,NULL,NULL,3.9,Bird contract at risk
+14,seasonal_peak,40,S1 Classic,Brake Cable,BRAKE-CABLE-REAR,78,644,566,1.5,CRITICAL
+15,seasonal_peak,40,S2 V2,Controller,CTRL-X500-V2,47,518,471,1.2,CRITICAL

@@ -1,0 +1,17 @@
+capacity_id,date,product_model,max_daily_capacity,actual_production,limiting_factor,shift_hours,workers_available,notes
+1,2024-12-23,S1 Classic,35,32,assembly_line_1,16,12,Normal operations
+2,2024-12-23,S2 V2,28,25,quality_inspection,16,12,QC bottleneck
+3,2024-12-23,S2 Pro,18,15,testing_equipment,16,12,Limited test stations
+4,2024-12-24,S1 Classic,35,28,brake_cable_shortage,16,12,Material shortage
+5,2024-12-24,S2 V2,28,20,controller_shortage,16,12,Critical parts missing
+6,2024-12-24,S2 Pro,18,12,battery_shortage,16,12,Waiting on shipment
+7,2024-12-25,S1 Classic,0,0,holiday,0,0,Christmas Day
+8,2024-12-26,S1 Classic,35,30,normal,16,12,Post-holiday ramp
+9,2024-12-26,S2 V2,28,26,normal,16,12,Back to normal
+10,2024-12-26,S2 Pro,18,16,normal,16,12,Catching up
+11,2024-12-27,S1 Classic,35,33,normal,16,12,Good production day
+12,2024-12-27,S2 V2,28,27,normal,16,12,Steady state
+13,2024-12-27,S2 Pro,18,17,normal,16,12,Near capacity
+14,2024-12-28,S1 Classic,35,31,normal,16,12,Weekend crew
+15,2024-12-28,S2 V2,28,24,normal,16,12,Weekend crew
+16,2024-12-28,S2 Pro,18,14,normal,16,12,Weekend crew

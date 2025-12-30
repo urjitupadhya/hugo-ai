@@ -1,0 +1,11 @@
+alert_id,alert_type,severity,created_date,resolved_date,material_code,supplier_name,customer_name,alert_title,resolution_action,time_to_resolve_hours,financial_impact,prevented_loss
+1,supplier_delay,critical,2024-11-15,2024-11-18,MOTOR-350W,ElectroSupply GmbH,NULL,Motor Shipment Delayed 7 Days,Emergency air freight,72,4500,0
+2,stockout_risk,critical,2024-11-22,2024-11-23,BRAKE-CABLE-REAR,WheelTech AB,NULL,Brake Cables Low - 2 Days Stock,Rush order placed,24,1200,28000
+3,price_spike,warning,2024-12-01,2024-12-08,BATT-48V-20AH,BatteryCo Limited,NULL,Battery Price Increase 12%,Negotiated to 8%,168,0,24000
+4,supplier_delay,critical,2024-12-10,2024-12-15,CTRL-X500-V2,TechParts GmbH,Bird,Controller Delay - Bird Order Risk,Alternative supplier,120,5550,50000
+5,quality_issue,warning,2024-12-08,2024-12-20,THROTTLE-ST200,AsiaComponents Ltd,NULL,Throttle Defect Rate 7.3%,Quarantine + CAR issued,288,8994,15000
+6,demand_surge,warning,2024-12-16,NULL,CTRL-X500-V2,NULL,NULL,S2 V2 Demand Surge - TikTok Viral,Monitoring,NULL,NULL,NULL
+7,overstock,warning,2024-12-18,NULL,CTRL-X400-V1,TechParts GmbH,NULL,Obsolete Controllers - 22K Tied Up,Return planned,NULL,22400,NULL
+8,framework_risk,critical,2024-12-20,NULL,CTRL-X500-V2,NULL,Bird,Bird Contract at Risk - Stockout,Emergency procurement,NULL,NULL,50000
+9,supplier_distress,critical,2024-12-27,NULL,BATT-48V-20AH,BatteryCo Limited,NULL,BatteryCo Financial Distress,Contingency plan activated,NULL,NULL,NULL
+10,reorder_optimization,info,2024-12-28,NULL,FRAME-S1-CLASSIC,NULL,NULL,Frame Reorder Point Too Low,Recommendation pending,NULL,3938,105800

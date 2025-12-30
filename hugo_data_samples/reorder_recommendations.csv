@@ -1,0 +1,11 @@
+recommendation_id,material_code,material_description,current_reorder_point,recommended_reorder_point,current_safety_stock,recommended_safety_stock,current_lot_size,recommended_lot_size,reason,expected_benefit,cost_impact,priority
+1,CTRL-X500-V2,Controller X500 V2,80,125,20,40,200,250,Supplier unreliability + demand increase,Prevent 3-4 stockouts per year,+4140 inventory cost,CRITICAL
+2,FRAME-S1-CLASSIC,S1 Classic Frame,50,95,20,35,100,150,Demand up 25% + lead time up 50%,Prevent 2-3 stockouts per year,+3938 inventory cost,HIGH
+3,BATT-48V-20AH,Battery 48V 20Ah,150,130,50,40,300,400,Supplier very reliable - can reduce buffer,Free up 3700 in capital,-3700 inventory cost,MEDIUM
+4,BRAKE-CABLE-REAR,Rear Brake Cable,100,145,30,50,500,600,Shared part across models + surge demand,Prevent assembly line stops,+293 inventory cost,HIGH
+5,CTRL-X400-V1,Controller X400 V1 (OLD),80,0,20,0,200,0,OBSOLETE - stop reordering,Recover 22400 tied capital,-22400 inventory cost,URGENT
+6,WHEEL-10-FRONT,10 inch Front Wheel,120,110,40,35,200,250,Stable demand + reliable supplier,Minor optimization,+420 inventory cost,LOW
+7,MOTOR-250W,250W Motor,90,100,30,35,150,150,Slight demand increase,Prevent shortages,+875 inventory cost,MEDIUM
+8,FRAME-S1-V1,Frame S1 V1 (OLD),60,0,25,0,100,0,OBSOLETE - use up stock then stop,Recover 12325 tied capital,-12325 inventory cost,HIGH
+9,LED-FRONT-BRIGHT,Front LED Bright,200,180,60,50,400,400,Overstock - reduce buffer,Free up 320 capital,-320 inventory cost,LOW
+10,WIRING-MAIN,Main Wiring Harness,150,165,50,55,300,300,Usage increasing slightly,Prevent delays,+450 inventory cost,MEDIUM

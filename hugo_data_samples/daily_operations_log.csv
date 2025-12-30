@@ -1,0 +1,14 @@
+log_id,date,shift,production_notes,issues_encountered,parts_critical,orders_at_risk,actions_taken
+1,2024-12-23,day,Normal production - all lines running,None,None,None,Standard operations
+2,2024-12-23,night,S2 V2 line slowed due to QC checks,Quality inspection backlog,None,None,Added QC staff
+3,2024-12-24,day,Reduced production - Christmas Eve,Holiday staffing,Controllers running low,Bird order,Monitoring inventory
+4,2024-12-24,night,Closed,Holiday,Controllers,Bird + Lime orders,None - closed
+5,2024-12-25,all_day,Closed,Christmas Holiday,Controllers,Multiple fleet orders,None - closed
+6,2024-12-26,day,Post-holiday ramp up,Minor delays starting up,Controllers CRITICAL,Bird Lime Spin orders,Called suppliers
+7,2024-12-26,night,Production recovering,Controller shortage limiting S2 output,Controllers 47 units left,8 fleet orders,Emergency procurement initiated
+8,2024-12-27,day,S2 V2 production limited to 67 units max,Controller shortage,Controllers,Bird order CRITICAL,Air freight order placed
+9,2024-12-27,night,Notified customers of potential delays,Material shortage,Controllers brake cables,10 customer orders,Customer communications sent
+10,2024-12-28,day,Weekend crew - reduced capacity,Staffing,Controllers,Bird order,Monitoring shipments
+11,2024-12-28,night,Preparing for Monday surge,None,Controllers arriving Mon,Bird Lime,Logistics coordination
+12,2024-12-29,day,CONTROLLER STOCKOUT - S2 production halted,Material shortage - critical,Controllers ZERO,12+ customer orders,Waiting on Monday delivery
+13,2024-12-29,night,Only S1 and partial S2 production possible,Controllers out of stock,Controllers,15 orders delayed,Damage control mode

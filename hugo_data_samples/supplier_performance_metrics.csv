@@ -1,0 +1,17 @@
+metric_id,supplier_id,supplier_name,month,year,total_orders,on_time_orders,delayed_orders,on_time_pct,avg_delay_days,quality_score,price_competitiveness,total_value_ordered,notes
+1,1,TechParts GmbH,11,2024,18,12,6,66.7,5.8,72,85,165400,Unreliable but cheap
+2,1,TechParts GmbH,12,2024,22,15,7,68.2,6.2,70,85,203800,Getting worse
+3,2,BatteryCo Limited,11,2024,12,11,1,91.7,2.0,95,90,221400,Very reliable
+4,2,BatteryCo Limited,12,2024,14,13,1,92.9,1.5,95,90,258900,Best battery supplier
+5,3,FrameCo Industries,11,2024,15,13,2,86.7,3.2,88,92,127500,Good frames
+6,3,FrameCo Industries,12,2024,16,14,2,87.5,2.8,88,75,153600,Price increased
+7,4,WheelTech AB,11,2024,10,9,1,90.0,1.0,92,88,89000,Premium wheels
+8,4,WheelTech AB,12,2024,12,11,1,91.7,1.2,92,88,106800,Reliable
+9,5,ElectroSupply GmbH,11,2024,14,11,3,78.6,4.1,85,90,118300,Capacity issues
+10,5,ElectroSupply GmbH,12,2024,16,13,3,81.3,3.8,85,90,143600,Improving
+11,6,AsiaComponents Ltd,11,2024,8,5,3,62.5,8.7,68,95,45200,Cheap but slow
+12,6,AsiaComponents Ltd,12,2024,9,6,3,66.7,7.9,70,95,51300,Quality concerns
+13,7,RapidParts Express,11,2024,6,6,0,100.0,0.0,95,75,28400,Emergency supplier
+14,7,RapidParts Express,12,2024,7,7,0,100.0,0.0,95,75,33200,Perfect record
+15,8,MetalWorks Poland,11,2024,11,10,1,90.9,2.1,90,88,72600,Stable supplier
+16,8,MetalWorks Poland,12,2024,13,11,2,84.6,2.5,90,88,85800,Minor delays

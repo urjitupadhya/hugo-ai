@@ -1,0 +1,7 @@
+contract_id,customer_name,customer_type,contract_start_date,contract_end_date,product_model,monthly_commitment,ytd_delivered,ytd_remaining,penalty_per_day,penalty_cap,on_time_delivery_pct,contract_value,at_risk,risk_reason
+1,Bird,fleet,2024-01-01,2024-12-31,S2 V2,450,4820,580,5000,50000,94.2,5400000,TRUE,Controller shortage may delay Jan orders
+2,Lime,fleet,2024-01-01,2024-12-31,S2 Pro,280,2980,320,5000,50000,96.1,4480000,TRUE,Battery supplier financial distress
+3,Spin,fleet,2024-03-01,2025-02-28,S2 V2,320,2880,560,3000,30000,92.8,3840000,FALSE,On track
+4,Tier,fleet,2024-01-01,2024-12-31,S1 Classic,550,5720,280,2000,30000,98.5,4400000,FALSE,Completing strong
+5,Voi,fleet,2024-06-01,2025-05-31,S2 V2,380,2280,2000,4000,40000,95.3,4560000,TRUE,High Q1 2025 commitment
+6,Bolt,fleet,2024-04-01,2025-03-31,S1 Classic,220,1980,660,2500,25000,93.6,1760000,FALSE,Manageable

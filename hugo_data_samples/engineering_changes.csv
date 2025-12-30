@@ -1,0 +1,6 @@
+change_id,change_number,product_model,change_type,change_date,effective_date,old_part,old_part_code,new_part,new_part_code,reason,impact,obsolete_stock_qty,obsolete_stock_value,action_taken
+1,ECO-2024-087,S1 Classic,component_upgrade,2024-11-15,2024-12-01,Controller X400 V1,CTRL-X400-V1,Controller X500 V2,CTRL-X500-V2,Improved regen braking,part_obsolete,280,22400,Return to supplier
+2,ECO-2024-092,S2 V2,supplier_change,2024-10-20,2024-11-01,Display LCD 6inch,DISP-LCD-6,Display LCD 7inch,DISP-LCD-7,Better visibility,part_upgrade,0,0,Phased transition
+3,ECO-2024-103,S2 Pro,cost_reduction,2024-12-05,2025-01-15,Handlebar Carbon Pro,HBAR-CARBON-PRO,Handlebar Aluminum Pro,HBAR-ALU-PRO,Cost savings,design_change,0,0,Planned transition
+4,ECO-2024-095,S1 Classic,quality_improvement,2024-09-10,2024-10-01,Frame S1 V1,FRAME-S1-V1,Frame S1 Classic,FRAME-S1-CLASSIC,Stronger welds,part_obsolete,145,12325,Use up old stock first
+5,ECO-2024-110,S2 V2,feature_addition,2024-12-20,2025-02-01,None,None,GPS Tracker 4G,GPS-4G,Customer request,new_part,0,0,Order 500 units

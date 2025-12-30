@@ -1,0 +1,19 @@
+forecast_id,date,product_model,forecasted_units,actual_units,variance_pct,forecast_method,confidence_level,notes
+1,2024-12-01,S1 Classic,175,185,5.7,historical_average,85,Slightly underestimated
+2,2024-12-01,S2 V2,280,275,-1.8,historical_average,85,Close to actual
+3,2024-12-01,S2 Pro,95,92,-3.2,historical_average,85,Close to actual
+4,2024-12-15,S1 Classic,180,192,6.7,historical_average,85,
+5,2024-12-15,S2 V2,285,295,3.5,historical_average,85,
+6,2024-12-15,S2 Pro,90,88,-2.2,historical_average,85,
+7,2024-12-29,S1 Classic,175,178,1.7,historical_average,85,
+8,2024-12-29,S2 V2,290,370,27.6,historical_average,85,SURGE - TikTok viral
+9,2024-12-29,S2 Pro,88,92,4.5,historical_average,85,
+10,2025-01-05,S1 Classic,180,NULL,,historical_average,80,Next week forecast
+11,2025-01-05,S2 V2,380,NULL,,adjusted_for_trend,70,Expecting surge to continue
+12,2025-01-05,S2 Pro,85,NULL,,historical_average,80,Expected decline
+13,2025-01-06,S1 Classic,182,NULL,,historical_average,80,
+14,2025-01-06,S2 V2,390,NULL,,adjusted_for_trend,70,Peak demand expected
+15,2025-01-06,S2 Pro,82,NULL,,historical_average,80,
+16,2025-01-07,S1 Classic,178,NULL,,historical_average,80,
+17,2025-01-07,S2 V2,385,NULL,,adjusted_for_trend,70,
+18,2025-01-07,S2 Pro,80,NULL,,historical_average,80,

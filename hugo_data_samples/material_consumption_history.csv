@@ -1,0 +1,42 @@
+consumption_id,material_code,date,quantity_consumed,production_orders,reason,notes
+1,CTRL-X500-V2,2024-12-01,280,280 S2 units built,production,Normal production month
+2,CTRL-X500-V2,2024-12-02,295,295 S2 units,production,High demand day
+3,CTRL-X500-V2,2024-12-03,310,310 S2 units,production,Peak production
+4,CTRL-X500-V2,2024-12-04,285,285 S2 units,production,
+5,CTRL-X500-V2,2024-12-05,290,290 S2 units,production,
+6,CTRL-X500-V2,2024-12-06,275,275 S2 units,production,
+7,CTRL-X500-V2,2024-12-07,265,265 S2 units,production,
+8,CTRL-X500-V2,2024-12-08,300,300 S2 units,production,
+9,CTRL-X500-V2,2024-12-09,310,310 S2 units,production,
+10,CTRL-X500-V2,2024-12-10,305,305 S2 units,production,
+11,CTRL-X500-V2,2024-12-11,290,290 S2 units,production,
+12,CTRL-X500-V2,2024-12-12,285,285 S2 units,production,
+13,CTRL-X500-V2,2024-12-13,295,295 S2 units,production,
+14,CTRL-X500-V2,2024-12-14,275,275 S2 units,production,
+15,CTRL-X500-V2,2024-12-15,300,300 S2 units,production,
+16,CTRL-X500-V2,2024-12-16,320,320 S2 units,production,Surge begins
+17,CTRL-X500-V2,2024-12-17,340,340 S2 units,production,Surge continues
+18,CTRL-X500-V2,2024-12-18,360,360 S2 units,production,Peak demand
+19,CTRL-X500-V2,2024-12-19,355,355 S2 units,production,High demand
+20,CTRL-X500-V2,2024-12-20,370,370 S2 units,production,Record day
+21,CTRL-X500-V2,2024-12-21,365,365 S2 units,production,Still high
+22,CTRL-X500-V2,2024-12-22,350,350 S2 units,production,
+23,CTRL-X500-V2,2024-12-23,380,380 S2 units,production,Near stockout
+24,CTRL-X500-V2,2024-12-24,340,340 S2 units,production,Christmas eve
+25,CTRL-X500-V2,2024-12-25,0,0,holiday,Closed
+26,CTRL-X500-V2,2024-12-26,360,360 S2 units,production,Post-holiday
+27,CTRL-X500-V2,2024-12-27,370,370 S2 units,production,
+28,CTRL-X500-V2,2024-12-28,355,355 S2 units,production,
+29,CTRL-X500-V2,2024-12-29,12,12 S2 units,production,STOCKOUT - only had 47 units left
+30,BATT-48V-20AH,2024-12-01,95,95 S2 Pro units,production,
+31,BATT-48V-20AH,2024-12-15,88,88 S2 Pro units,production,
+32,BATT-48V-20AH,2024-12-29,92,92 S2 Pro units,production,
+33,FRAME-S1-CLASSIC,2024-12-01,185,185 S1 units,production,
+34,FRAME-S1-CLASSIC,2024-12-15,192,192 S1 units,production,
+35,FRAME-S1-CLASSIC,2024-12-29,178,178 S1 units,production,
+36,BRAKE-CABLE-REAR,2024-12-01,465,All models,production,Shared part
+37,BRAKE-CABLE-REAR,2024-12-15,492,All models,production,
+38,BRAKE-CABLE-REAR,2024-12-29,510,All models,production,High usage
+39,WHEEL-10-FRONT,2024-12-01,280,S2 models,production,
+40,WHEEL-10-FRONT,2024-12-15,295,S2 models,production,
+41,WHEEL-10-FRONT,2024-12-29,312,S2 models,production,
