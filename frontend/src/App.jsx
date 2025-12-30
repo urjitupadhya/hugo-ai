@@ -12,7 +12,7 @@ import InventoryAlerts from './components/InventoryAlerts';
 import ChatInterface from './components/ChatInterface';
 
 // API Base URL - dynamic to support network access
-const API_BASE = `http://${window.location.hostname}:8000`;
+const API_BASE = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000`;
 
 function App() {
   // Feature state
