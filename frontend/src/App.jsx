@@ -11,8 +11,8 @@ import Toast from './components/Toast';
 import InventoryAlerts from './components/InventoryAlerts';
 import ChatInterface from './components/ChatInterface';
 
-// API Base URL - dynamic to support network access
-const API_BASE = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000`;
+// API Base URL - normalized to remove trailing slash
+const API_BASE = (import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000`).replace(/\/$/, '');
 
 function App() {
   // Feature state
